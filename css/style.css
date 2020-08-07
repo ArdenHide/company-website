@@ -1,0 +1,16 @@
+/* Typography */
+.blue-text-nav {
+  color: #697CA6;
+}
+
+.active-blue-text-nav {
+  color: #5E81FE;
+}
+
+/* Typography */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
