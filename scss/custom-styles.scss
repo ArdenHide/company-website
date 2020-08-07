@@ -1,0 +1,40 @@
+// Your custom styles
+@import "_custom-variables";
+
+/* Typography */
+.blue-text-nav{
+    color: $blue-text;
+}
+.active-blue-text-nav{
+    color: $light-blue-text;
+}
+.dark-blue-text {
+    color: $dark-blue-text;
+}
+.sub-text {
+    color: $sub-text;
+}
+/* Typography */
+
+/* Hover Effect */
+.fa-hover:hover{
+    color: $fa-hover-blue;
+}
+/* Hover Effect */
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+header {
+
+    .intro-1 {
+        background-image: url(../img/header-banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
