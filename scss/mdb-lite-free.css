@@ -8917,17 +8917,28 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
   color: #6188FF;
 }
 
+.svg-hover:hover {
+  color: #6188FF;
+}
+
 /* Hover Effect */
 html,
-body,
-header,
-.view {
+body {
   height: 100%;
 }
 
-header .intro-1 {
-  background-image: url(../img/header-banner.png);
+header {
+  height: 100%;
+}
+
+header .view {
+  height: 100%;
+  background-image: url(../img/header-banner-regular.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+.nav-link {
+  font-size: 1.2rem;
 }
