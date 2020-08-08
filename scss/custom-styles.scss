@@ -33,12 +33,17 @@ header {
     height: 100%;
     .view {
         height: 100%;
+        margin-top: 50px;
         background-image: url(../img/header-banner-regular.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
 }
-.nav-link {
-    font-size: 1.1rem;
+
+#features {
+    background-image: url(../img/svg/features-banner.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
