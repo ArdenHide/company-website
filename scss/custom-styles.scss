@@ -20,8 +20,10 @@
 .fa-hover:hover{
     color: $fa-hover-blue;
 }
+.svg-hover:hover{
+    fill: $fa-hover-blue;
+}
 /* Hover Effect */
-
 html,
 body {
     height: 100%;
@@ -30,10 +32,13 @@ body {
 header {
     height: 100%;
     .view {
-        min-height: 100%;
+        height: 100%;
         background-image: url(../img/header-banner-regular.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
+}
+.nav-link {
+    font-size: 1.2rem;
 }
