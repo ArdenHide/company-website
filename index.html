@@ -66,14 +66,13 @@
             </div>
         </nav>
 
-        <div class="view">
-            <div class="mask mask-opacity rgba-blue-light shadow flex-center">
+        <div class="view jumbotron">
+            <div class="mask mask-opacity rgba-light-blue-light shadow flex-center">
                 <div class="container text-center white-text">
                     <div class="white-text text-center animated wow fadeInUp pt-5">
                         <p class="small font-weight-bold text-uppercase text-monospace dark-blue-text py-2">Plan your life</p>
                         <p class="h1 dark-blue-text pb-4"><span class="font-weight-lighter">Increase your</span> productivity</p>
-                        <p class="sub-text px-4">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem
-                            an, insolens gubergren similique estcu.</p>
+                        <p class="sub-text px-4">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudeman, insolens gubergren similique estcu.</p>
                     </div>
                 </div>
             </div>
@@ -175,7 +174,7 @@
                     <div class="flex-row align-items-center btn-group">
                         <button class="btn rgba-red-light red-text font-weight-bold">Read more</button>
                         <p class="text-muted m-0 px-4">OR</p>
-                        <button class="btn rgba-blue-light blue-text font-weight-bold">Get started</button>
+                        <button class="btn rgba-blue-light blue-text font-weight-bold" style="margin: 6px;">Get started</button>
                     </div>
                 </div>
             </div>
@@ -186,13 +185,15 @@
             <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-12 col-lg-6 blue d-flex flex-column justify-content-end text-center py-3 px-4">
+                    <div class="col-12 col-lg-6 blue
+                    d-flex flex-column justify-content-end text-center py-3 px-4 wow fadeInLeft">
                         <img src="img/svg/time.svg" alt="" class="img-fluid flex-column align-self-lg-end">
                         <p class="display-4 white-text flex-column align-self-lg-end">89%</p>
                         <p class="lead white-text flex-column align-self-lg-end">Customers who have increased their productivity</p>
                     </div>
 
-                    <div class="col-12 col-lg-6 blue lighten-5 d-flex flex-column justify-content-end text-center py-3 px-4">
+                    <div class="col-12 col-lg-6 blue lighten-4
+                    d-flex flex-column justify-content-end text-center py-3 px-4 wow fadeInRight">
                         <img src="img/svg/people.svg" alt="" class="img-fluid flex-column align-self-lg-start">
                         <p class="display-4 blue-text flex-column align-self-lg-start">3123</p>
                         <p class="lead blue-text flex-column align-self-lg-start">Customers who have increased their productivity</p>
@@ -203,9 +204,174 @@
         </section>
 
         <!-- * Blog -->
-        <section id="">
-            <div class="container">
-                
+        <section id="blog" class="blue lighten-5 py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col text-center">
+                        <p class="small font-weight-bold text-uppercase text-monospace dark-blue-text">Our resources</p>
+                        <p class="h4 dark-blue-text pb-4">Start reading our blog</p>
+                    </div>
+                </div>
+
+                <div class="row d-flex align-items-center">
+
+                    <!--Controls Left-->
+                    <div class="col">
+                        <a class="btn-floating" href="#multi-item-example" data-slide="prev">
+                            <i class="fas fa-chevron-left dark-ic"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="col-10 bg-white border border-primary shadow-lg py-5 px-3">
+                        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#multi-item-example" data-slide-to="0" class="active elegant-color"></li>
+                                <li data-target="#multi-item-example" data-slide-to="1" class="elegant-color"></li>
+                                <li data-target="#multi-item-example" data-slide-to="2" class="elegant-color"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                
+
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <div class="row">
+
+                                        <div class="col-md-6">
+                                            <div class="d-flex">
+                                                <img src="img/blog-immage-1.png" alt="" class="img-fluid mr-4">
+                                                <div class="row">
+                                                    <img src="img/blog-immage-2.png" alt="" class="img-fluid pb-1">
+                                                    <img src="img/blog-immage-3.png" alt="" class="img-fluid pt-1">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 px-3">
+                                            <p class="h1 dark-blue-text font-weight-normal text-left">How to start planning</p>
+                                            <p class="text-muted">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in meldiceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore...</p>
+
+                                            <div class="btn-group align-items-center">
+                                                <button class="btn rgba-blue-light blue-text">Read now</button>
+                                                <a href="#blog">Add to your bookmarks</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--/.First slide-->
+                        
+                                <!--Second slide-->
+                                <div class="carousel-item">
+                        
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                        the
+                                                        card's content.</p>
+                                                    <a class="btn btn-primary">Button</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                        the
+                                                        card's content.</p>
+                                                    <a class="btn btn-primary">Button</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-md-4">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                        the
+                                                        card's content.</p>
+                                                    <a class="btn btn-primary">Button</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                </div>
+                                <!--/.Second slide-->
+                        
+                                <!--Third slide-->
+                                <div class="carousel-item">
+                                
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                        the
+                                                        card's content.</p>
+                                                    <a class="btn btn-primary">Button</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-md-4">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                        the
+                                                        card's content.</p>
+                                                    <a class="btn btn-primary">Button</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                
+                                        <div class="col-md-4">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Card title</h4>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                                        the
+                                                        card's content.</p>
+                                                    <a class="btn btn-primary">Button</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <!--/.Third slide-->
+                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Controls Right-->
+                    <div class="col">
+                        <a class="btn-floating" href="#multi-item-example" data-slide="next">
+                            <i class="fas fa-chevron-.right dark-ic"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     
