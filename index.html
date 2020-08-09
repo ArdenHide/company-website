@@ -18,7 +18,7 @@
     <!-- ! Your custom styles (optional) -->
     <link rel="stylesheet" href="scss/custom-styles.css">
 </head>
-<body class="hidden-sn grey-skin">
+<body class="hidden-sn">
 
     <!-- * Header -->
     <header id="header">
@@ -213,11 +213,11 @@
                     </div>
                 </div>
 
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center justify-content-between">
 
                     <!--Controls Left-->
-                    <div class="col">
-                        <a class="btn-floating" href="#multi-item-example" data-slide="prev">
+                    <div class="col d-flex justify-content-end p-0 pr-4">
+                        <a class="btn-floating d-none d-md-block" href="#multi-item-example" data-slide="prev">
                             <i class="fas fa-chevron-left dark-ic"></i>
                         </a>
                     </div>
@@ -225,150 +225,111 @@
                     <div class="col-10 bg-white border border-primary shadow-lg py-5 px-3">
                         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
                             <!-- Indicators -->
-                            <ol class="carousel-indicators">
+                            <ol class="carousel-indicators pt-5">
                                 <li data-target="#multi-item-example" data-slide-to="0" class="active elegant-color"></li>
                                 <li data-target="#multi-item-example" data-slide-to="1" class="elegant-color"></li>
                                 <li data-target="#multi-item-example" data-slide-to="2" class="elegant-color"></li>
                             </ol>
+
                             <div class="carousel-inner" role="listbox">
-                                
 
                                 <!--First slide-->
                                 <div class="carousel-item active">
                                     <div class="row">
 
-                                        <div class="col-md-6">
-                                            <div class="d-flex">
-                                                <img src="img/blog-immage-1.png" alt="" class="img-fluid mr-4">
-                                                <div class="row">
-                                                    <img src="img/blog-immage-2.png" alt="" class="img-fluid pb-1">
-                                                    <img src="img/blog-immage-3.png" alt="" class="img-fluid pt-1">
+                                        <div class="col-12">
+                                            <div class="row card flex-md-row">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="card-header bg-white border-0">
+                                                        <img class="card-img-top" src="img/blog-immage-1.png" alt="">
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6 px-3">
-                                            <p class="h1 dark-blue-text font-weight-normal text-left">How to start planning</p>
-                                            <p class="text-muted">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in meldiceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore...</p>
-
-                                            <div class="btn-group align-items-center">
-                                                <button class="btn rgba-blue-light blue-text">Read now</button>
-                                                <a href="#blog">Add to your bookmarks</a>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="card-body">
+                                                        <p class="h1 dark-blue-text font-weight-normal text-left">How to start planning</p>
+                                                        <p class="text-muted">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos,
+                                                            vero
+                                                            tractatos ius an, in meldiceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis
+                                                            ei,
+                                                            quas
+                                                            tibique pro at, eos ut decore...</p>
+                                            
+                                                        <div class="btn-group align-items-center">
+                                                            <button class="btn rgba-blue-light blue-text mr-3">Read now</button>
+                                                            <a href="#blog" class="">Add to your bookmarks</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
 
                                     </div>
                                 </div>
-                                <!--/.First slide-->
-                        
+
                                 <!--Second slide-->
                                 <div class="carousel-item">
-                        
                                     <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-2">
-                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Card title</h4>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                                        the
-                                                        card's content.</p>
-                                                    <a class="btn btn-primary">Button</a>
+                                
+                                        <div class="col-12">
+                                            <div class="row card flex-md-row">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="card-header bg-white border-0">
+                                                        <img class="card-img-top" src="img/blog-immage-2.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="card-body">
+                                                        <p class="h1 dark-blue-text font-weight-normal text-left">How to start planning</p>
+                                                        <p class="text-muted">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidittractatos,verotractatos ius an, in meldiceret persecuti. Natum petentium principes mei ea. Tota evertipericulis visei,quastibique pro at, eos ut decore...</p>
+                                
+                                                        <div class="btn-group align-items-center">
+                                                            <button class="btn rgba-blue-light blue-text mr-3">Read now</button>
+                                                            <a href="#blog" class="">Add to your bookmarks</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        
-                                        <div class="col-md-4">
-                                            <div class="card mb-2">
-                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Card title</h4>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                                        the
-                                                        card's content.</p>
-                                                    <a class="btn btn-primary">Button</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="col-md-4">
-                                            <div class="card mb-2">
-                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Card title</h4>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                                        the
-                                                        card's content.</p>
-                                                    <a class="btn btn-primary">Button</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                
                                     </div>
-                        
                                 </div>
-                                <!--/.Second slide-->
-                        
+
                                 <!--Third slide-->
                                 <div class="carousel-item">
-                                
                                     <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="card mb-2">
-                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Card title</h4>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                                        the
-                                                        card's content.</p>
-                                                    <a class="btn btn-primary">Button</a>
+                                
+                                        <div class="col-12">
+                                            <div class="row card flex-md-row">
+                                                <div class="col-12 col-md-6">
+                                                    <div class="card-header bg-white border-0">
+                                                        <img class="card-img-top" src="img/blog-immage-3.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6">
+                                                    <div class="card-body">
+                                                        <p class="h1 dark-blue-text font-weight-normal text-left">How to start planning</p>
+                                                        <p class="text-muted">Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidittractatos,verotractatos ius an, in meldiceret persecuti. Natum petentium principes mei ea. Tota evertipericulis visei,quastibique pro at, eos ut decore...</p>
+                                
+                                                        <div class="btn-group align-items-center">
+                                                            <button class="btn rgba-blue-light blue-text mr-3">Read now</button>
+                                                            <a href="#blog" class="">Add to your bookmarks</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                 
-                                        <div class="col-md-4">
-                                            <div class="card mb-2">
-                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Card title</h4>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                                        the
-                                                        card's content.</p>
-                                                    <a class="btn btn-primary">Button</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                
-                                        <div class="col-md-4">
-                                            <div class="card mb-2">
-                                                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
-                                                    alt="Card image cap">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Card title</h4>
-                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                                        the
-                                                        card's content.</p>
-                                                    <a class="btn btn-primary">Button</a>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
-                                
                                 </div>
-                                <!--/.Third slide-->
-                        
+
                             </div>
                         </div>
                     </div>
 
                     <!--Controls Right-->
-                    <div class="col">
-                        <a class="btn-floating" href="#multi-item-example" data-slide="next">
-                            <i class="fas fa-chevron-.right dark-ic"></i>
+                    <div class="col d-flex justify-content-start p-0 pl-4">
+                        <a class="btn-floating d-none d-md-block" href="#multi-item-example" data-slide="next">
+                            <i class="fas fa-chevron-right dark-ic"></i>
                         </a>
                     </div>
                 </div>
